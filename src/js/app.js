@@ -1,8 +1,10 @@
+/* Import Dependencies*/
 import 'jquery';
-/* Import SCSS*/
+/* Import Styles*/
 import '../scss/main.scss';
-/* Import HTML*/
+/* Import HTML pages*/
 import '../users.html';
+
 /* Declaring Const*/
 const message = "This works";
 
