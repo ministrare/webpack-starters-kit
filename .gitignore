@@ -1,0 +1,9 @@
+# GitIgnore file Webpack 2 starters Kit
+# Author: Lesley Forn
+
+## PHPStorm Data
+.idea
+
+# Node_modules folder
+node_modules/
+
