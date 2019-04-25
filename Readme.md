@@ -1,7 +1,8 @@
 # Webpack 2 starters kit
 
 ## Table of content
- * [What is Webpack](#What-is-webpack?)
+ * [What is Webpack](#What-is-webpack)
+    - [Official documentation](#Official-Documentation)
  * [Setup new project](#Setup-new-project)
     - [File Structure](#File-structure)
  * [Initialise npm](#Initialise-npm)
@@ -9,6 +10,8 @@
  * [Sass compiler, extract-text-webpack-plugin and Babel](#Sass-compiler-extract-text-webpack-plugin-and-Babel)
  * [HTML loader](#HTML-loader)
  * [File-loader](#File-loader)
+ * [Multiple HTML files](#Multiple-HTML-files)
+ * [Using 3rd Party packages](#Using-3rd-party-packages)
  * [Sources](#Sources)
 
 ## What is webpack?
@@ -102,10 +105,22 @@ add the following rules after the ouput methode to the webpack.config.js file:
     ],
 ```
 
-## HTML loader
-@TODO
-## File-loader
-@TODO
+## HTML loader & File-loader
+```
+npm i -D html-loader html-webpack-plugin file-loader
+```
+
+```
+npm i -d clean-webpack-plugin
+```
+
+## Multiple-HTML-files
+```
+
+```
+
+
+## Using-3rd-party-packages
 
 ### Sources
  - [survivejs.com - What is Webpack](https://survivejs.com/webpack/what-is-webpack/)
